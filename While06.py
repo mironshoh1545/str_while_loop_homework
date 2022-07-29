@@ -8,10 +8,11 @@ def main(s):
         int: return answer
     """ 
     con = ['a', 'e', 'i', 'o', 'u']  
+    s = s.lower()
     i = 0
     su = 0
     while i < len(s):
-        if s[i] in con:
+        if not(s[i] in con):
             su += 1
         i += 1
     return su

@@ -10,7 +10,8 @@ def main(s):
     i = 0
     su = 0 
     while i < len(s):
-        if s[i].ispunctuation():
+        if not(s[i].isdigit()) and not(s[i].isalpha()):
             su += 1
         i += 1
     return su
+print(main('@dfgh@#$'))
