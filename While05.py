@@ -5,7 +5,7 @@ def main(s):
         s: str
     Returns:
         int: return answer
-    """ 
+    """  
 
     i = 0
     su = 0

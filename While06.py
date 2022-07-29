@@ -6,7 +6,7 @@ def main(s):
         consonant: other than vowels(a, e, i, o, u)
     Returns:
         int: return answer
-    """
+    """ 
     con = ['a', 'e', 'i', 'o', 'u']  
     i = 0
     su = 0

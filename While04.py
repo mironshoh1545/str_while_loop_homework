@@ -6,7 +6,7 @@ def main(s):
     Returns:
         int: return a nswer
     """
-    
+     
     i = 0
     su = 0
     while i < len(s):

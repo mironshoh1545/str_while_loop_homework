@@ -7,7 +7,7 @@ def main(s):
     Args:
         s: str
     Returns:
-        int: return answer
+        int: return answer 
     """
      
     i = 0

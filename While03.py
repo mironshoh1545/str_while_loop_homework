@@ -8,7 +8,7 @@ def main(s):
     """
      
     i = 0
-    su = 0
+    su = 0 
     while i < len(s):
         if s[i].ispunctuation():
             su += 1
