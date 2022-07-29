@@ -12,7 +12,7 @@ def main(s):
     i = 0
     su = 0
     while i < len(s):
-        if not(s[i] in con):
+        if not(s[i] in con) and s[i].isalpha():
             su += 1
         i += 1
     return su
