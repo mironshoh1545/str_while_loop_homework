@@ -7,7 +7,7 @@ def main(s):
         int: return answer
     """
 
-    i = 0
+    i = 0 
     su = 0
     while i < len(s):
         if s[i].isdigit():

@@ -7,7 +7,7 @@ def main(s):
     Returns:
         int: return answer
     """
-    con = ['a', 'e', 'i', 'o', 'u']
+    con = ['a', 'e', 'i', 'o', 'u']  
     i = 0
     su = 0
     while i < len(s):
